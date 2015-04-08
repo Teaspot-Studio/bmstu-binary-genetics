@@ -1,0 +1,14 @@
+name:           binary-gen
+version:        0.1
+cabal-version:  >=1.2
+build-type:     Simple
+author:         Marwin
+
+executable binary-gen
+  hs-source-dirs:  src
+  main-is:         Main.hs
+  build-depends:   
+                   base >= 4,
+                   MonadRandom >=0.3 && <0.4
+  ghc-options:     -Wall
+
